@@ -1,0 +1,44 @@
+Objective: there are so many technology stacks and knowledge areas involved in an area like Derivatives, and I’d like everyone to have the most efficient roadmap to become as knowledgeable and productive as possible in the shortest time. 
+
+Constraint: focus of the roadmap would be engineering, not math (this will be most obvious in my recommendation for ML/AI – you should be able to play with problems ASAP, math can be fleshed out later). 
+
+A game of picking 1: for every area I’ll point one language/framework/tech so you don’t have to waste time endlessly reading comparison articles that don’t really give you a real answer (“”So the conclusion is, it depends on what you’re looking for…”). 
+
+1.	Software Craftsmanship
+	a.	The Art of Readable Code
+		https://www.safaribooksonline.com/library/view/the-art-of/9781449318482/
+2.	Front-End Development
+	a.	Language: JavaScript
+		i.	Basic JavaScript
+		https://github.com/getify/You-Dont-Know-JS    
+		ii.	Basics, before learning any framework
+		http://henriquea.github.io/blog/before-dive-into-react.html
+		iii.	React or Angular? (React seems to be more commonly used in Equities?)
+		http://ui.web.gs.com/toolkit/developer-guides/react-or-angular
+		iv.	React Fundamentals
+		https://medium.freecodecamp.org/all-the-fundamental-react-js-concepts-jammed-into-this-single-medium-article-c83f9b53eac2
+	b.	Frameworks for Desktop Apps: Electron JS
+		i.	The website
+		https://electronjs.org/
+			
+3.	Back-End Development
+	a.	Language: Java
+		i.	Effective Java, Third Edition (should be mandatory book for all Java programmers)
+		https://www.safaribooksonline.com/library/view/effective-java-third/9780134686097/
+4.	Production Environment
+	a.	Given our focus on SRE, definitely this book
+	https://www.safaribooksonline.com/library/view/site-reliability-engineering/9781491929117/
+5.	Analytics/Data Science/Machine Learning -- Python or R? (My opinion:)
+	a.	Language: Python (Python gives you bigger bang for your buck than R, Matlab, Julia, etc., since it’s also a general-purpose programming language.)
+		i.	Google’s Python Class
+		https://developers.google.com/edu/python/?hl=en
+		ii.	Fluent Python (optional – it’s great to understand more about the language)
+		https://www.oreilly.com/library/view/fluent-python/9781491946237/
+	b.	Prepping Data (super important)
+	https://www.dataquest.io/blog/machine-learning-preparing-data/
+	c.	Algorithms – where to start? Based on my research of Kaggle’s winners, you only have to focus on 1 for each category:
+		i.	Non-perceptional problems: Gradient Boosted Machines is the way to go. Start with one implementation and stick with it (XGBoost since it has a lot more papers etc. than its competitors)
+		https://machinelearningmastery.com/gentle-introduction-xgboost-applied-machine-learning/
+		ii.	Perceptional problems: Neural Networks is a must. Keras is the one to focus on – it’s high level so you’re abstracted somewhat from choices such as TensorFlow, Theano, CNTK. 
+		https://www.safaribooksonline.com/library/view/deep-learning-with/9781617294433/
+	d.	Storage: Elastic Search
